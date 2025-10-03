@@ -31,7 +31,7 @@ It demonstrates core React concepts like components, routing, state management, 
 1. Clone the repository:
    ```bash
    git https://github.com/elmaejupi/UserManagementApp.git
-   cd usermanagement
+   cd UserManagementApp
 
 2. Install dependencies:
    ```bash
