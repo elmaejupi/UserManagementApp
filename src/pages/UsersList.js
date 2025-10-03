@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import SearchBar from "./SearchBar";
+import SearchBar from "../components/SearchBar";
 import UserCard from "../components/UserCard";
 
 export default function UsersList({ users, onDelete, showSort = true }) {

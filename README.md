@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# User Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple **React.js** application for managing users.  
+It demonstrates core React concepts like components, routing, state management, forms, and data fetching.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
+- **List Users** – Fetch users from API and display them in a clean UI.
+- **Search Users** – Search users by name or email.
+- **Sort Users** – Sort by Name (A-Z / Z-A) or Email.
+- **User Details Page** – View detailed information about a single user.
+- **Add User** – Create new users locally.
+- **Delete User** – Remove a user.
+- **Responsive Design** – Works across devices (desktop, tablet, mobile).
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
+- **JavaScript (ES6+)**
+- **React.js**
+- **React Router**
+- **Tailwind CSS**
+- **Heroicons**
+- **JSONPlaceholder API** (for mock user data)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📦 Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   ```bash
+   git https://github.com/elmaejupi/UserManagementApp.git
+   cd user-management-app
 
-### `npm run build`
+2. Install dependencies:
+   ```bash
+   npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
+   ```bash
+   npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app will run at http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📂 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+src/
+├── api/ # API functions
+├── components/ # Reusable UI components (Header, Footer, SearchBar, etc.)
+├── pages/ # Pages (Home, UsersList, UserDetails, AddUserForm)
+├── css/ # Custom styles
+├── App.js # Main App component
+└── index.js # Entry point
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🌟 Usage
 
-## Learn More
+- Navigate to **Users** to see the list of users.  
+- Use the **Search bar** to filter users.  
+- Use the **Sort dropdown** to sort users.  
+- Click a user to **view details**.  
+- Add a new user from the **Add User** page.  
+- Delete a user.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 👨‍💻 Author
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Elma Ejupi** 
