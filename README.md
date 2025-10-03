@@ -31,7 +31,7 @@ It demonstrates core React concepts like components, routing, state management, 
 1. Clone the repository:
    ```bash
    git https://github.com/elmaejupi/UserManagementApp.git
-   cd user-management-app
+   cd usermanagement
 
 2. Install dependencies:
    ```bash
@@ -48,7 +48,7 @@ The app will run at http://localhost:3000.
 ## 📂 Project Structure
 
 src/
-├── api/ # API functions
+├── api.js # API functions
 ├── components/ # Reusable UI components (Header, Footer, SearchBar, etc.)
 ├── pages/ # Pages (Home, UsersList, UserDetails, AddUserForm)
 ├── css/ # Custom styles
@@ -65,7 +65,7 @@ src/
 - Use the **Sort dropdown** to sort users.  
 - Click a user to **view details**.  
 - Add a new user from the **Add User** page.  
-- Delete a user.  
+- Delete a user in the details page.  
 
 ---
 
