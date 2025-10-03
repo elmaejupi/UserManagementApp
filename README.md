@@ -47,13 +47,13 @@ The app will run at http://localhost:3000.
 
 ## 📂 Project Structure
 
-src/
-├── api.js # API functions
-├── components/ # Reusable UI components (Header, Footer, SearchBar, etc.)
-├── pages/ # Pages (Home, UsersList, UserDetails, AddUserForm)
-├── css/ # Custom styles
-├── App.js # Main App component
-└── index.js # Entry point
+- **src/**
+  - **api.js** – API functions
+  - **components/** – Reusable UI components (Header, Footer, SearchBar, etc.)
+  - **pages/** – Pages (Home, UsersList, UserDetails, AddUserForm)
+  - **css/** – Custom styles
+  - **App.js** – Main App component
+  - **index.js** – Entry point
 
 
 ---
