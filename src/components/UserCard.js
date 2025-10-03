@@ -1,16 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ArrowCircleRightIcon } from '@heroicons/react/solid';
 
-export default function UserCard({ user, onDelete }) {
+function UserCard({ user, onDelete }) {
   return (
-    <div className="bg-white rounded shadow p-4 hover:scale-105 transition">
-      <h3 className="font-semibold">{user.name}</h3>
-      <p className="text-sm text-gray-600">{user.email}</p>
-      <p className="text-sm text-gray-500">{user.company?.name}</p>
-      <div className="mt-2 flex justify-between items-center">
-        <Link to={`/user/${user.id}`} className="text-indigo-600 underline text-sm">Details</Link>
-        <button onClick={() => onDelete(user.id)} className="text-red-600 text-sm">Delete</button>
+    <div className="border border-gray-200 p-6 rounded-2xl bg-white shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-1 flex flex-col justify-between">
+      <div>
+        <h3 className="text-lg font-semibold text-gray-800">{user.name}</h3>
+        <p className="text-gray-600">{user.email}</p>
+        <p className="text-sm text-gray-500">{user.company?.name}</p>
+      </div>
+
+      <div className="flex justify-end mt-4">
+        <Link 
+          to={`/user/${user.id}`} 
+          className="text-emerald-600 flex items-center transition-colors duration-200 hover:text-emerald-800"
+        >
+          <ArrowCircleRightIcon className="h-10 w-10 transition-transform duration-200 hover:scale-110" />
+        </Link>
       </div>
     </div>
   );
 }
+
+export default UserCard;
